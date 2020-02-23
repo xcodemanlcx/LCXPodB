@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LCXPodB_Example' do
+  pod 'LCXPodB', :path => '../'
+
+  target 'LCXPodB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
