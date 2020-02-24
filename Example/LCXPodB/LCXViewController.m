@@ -7,7 +7,7 @@
 //
 
 #import "LCXViewController.h"
-
+#import <LCXPodB/PodBTestClass.h>
 @interface LCXViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [PodBTestClass test];
 }
 
 - (void)didReceiveMemoryWarning

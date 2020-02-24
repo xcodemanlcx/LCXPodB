@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCXPodB'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'short description.'
   s.description      = <<-DESC
 TODO: long description here.
