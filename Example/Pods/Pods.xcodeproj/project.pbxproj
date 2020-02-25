@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		005B667B5BA570C097FD25CC29D72868 /* LCXPodB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C736996BF27B03BAB3BA748B8C43FB /* LCXPodB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		075B3BC02403D0DA00DE2576 /* GroupTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 075B3BBE2403D0DA00DE2576 /* GroupTest.h */; };
-		075B3BC12403D0DA00DE2576 /* GroupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B3BBF2403D0DA00DE2576 /* GroupTest.m */; };
+		0739B3392404AFA80009236A /* GroupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0739B3372404AFA80009236A /* GroupTest.m */; };
+		0739B33A2404AFA80009236A /* GroupTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0739B3382404AFA80009236A /* GroupTest.h */; };
 		0D79060F1C6507FD936C6A2024B257A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		51CD9B59071EB0EF75D875F04DD8C7DB /* LCXPodB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF94804ACAE8B98D9FE71E7B15D4104E /* LCXPodB-dummy.m */; };
 		999FE3797508462700D7AA537F08B34B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -40,12 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		075B3BBE2403D0DA00DE2576 /* GroupTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupTest.h; sourceTree = "<group>"; };
-		075B3BBF2403D0DA00DE2576 /* GroupTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupTest.m; sourceTree = "<group>"; };
+		0739B3372404AFA80009236A /* GroupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTest.m; sourceTree = "<group>"; };
+		0739B3382404AFA80009236A /* GroupTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTest.h; sourceTree = "<group>"; };
 		0914B6D2DC11C0F290DE57CE7CF60152 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0962B8D2A5EAF9458FECBA0171B05CFF /* Pods-LCXPodB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCXPodB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1556677CC9DDD565B722B10293E417C5 /* Pods-LCXPodB_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCXPodB_Example.modulemap"; sourceTree = "<group>"; };
-		161573C75A24F313AB502E47475439FB /* PodBTestClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PodBTestClass.h; path = LCXPodB/Classes/PodBTestClass.h; sourceTree = "<group>"; };
+		161573C75A24F313AB502E47475439FB /* PodBTestClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PodBTestClass.h; sourceTree = "<group>"; };
 		2428C9F890078200D22E80161A0101B0 /* LCXPodB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCXPodB.modulemap; sourceTree = "<group>"; };
 		2D1C2E9CAECC9524AB9C8B8A837B316D /* Pods-LCXPodB_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCXPodB_Example-dummy.m"; sourceTree = "<group>"; };
 		2ED492FBAA841A8821ABB6E1A22DFED7 /* Pods-LCXPodB_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCXPodB_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		AC8716E2C9DBF6366BF648724A9535C4 /* Pods-LCXPodB_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCXPodB_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BA35420E7C810DC0F002EF9FB60C05CE /* LCXPodB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCXPodB-prefix.pch"; sourceTree = "<group>"; };
 		BCF1053D1244053C4F86A669A072E961 /* Pods-LCXPodB_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCXPodB_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C14F86CFB6C20DC99388A91ECB04A30E /* PodBTestClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PodBTestClass.m; path = LCXPodB/Classes/PodBTestClass.m; sourceTree = "<group>"; };
+		C14F86CFB6C20DC99388A91ECB04A30E /* PodBTestClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PodBTestClass.m; sourceTree = "<group>"; };
 		D8151B03CB3A2C88DBE042A1707657AE /* Pods-LCXPodB_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCXPodB_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E9EA58BCA462BBDD31ACF6CD20FBEA86 /* Pods-LCXPodB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCXPodB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF94804ACAE8B98D9FE71E7B15D4104E /* LCXPodB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCXPodB-dummy.m"; sourceTree = "<group>"; };
@@ -113,11 +113,21 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		0739B3362404AFA80009236A /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				0739B3372404AFA80009236A /* GroupTest.m */,
+				0739B3382404AFA80009236A /* GroupTest.h */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
 		075B3BBD2403D0CA00DE2576 /* NewGroup */ = {
 			isa = PBXGroup;
 			children = (
-				075B3BBE2403D0DA00DE2576 /* GroupTest.h */,
-				075B3BBF2403D0DA00DE2576 /* GroupTest.m */,
+				0739B3362404AFA80009236A /* Group */,
+				161573C75A24F313AB502E47475439FB /* PodBTestClass.h */,
+				C14F86CFB6C20DC99388A91ECB04A30E /* PodBTestClass.m */,
 			);
 			name = NewGroup;
 			path = LCXPodB/Classes/NewGroup;
@@ -127,8 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				075B3BBD2403D0CA00DE2576 /* NewGroup */,
-				161573C75A24F313AB502E47475439FB /* PodBTestClass.h */,
-				C14F86CFB6C20DC99388A91ECB04A30E /* PodBTestClass.m */,
 				C8DEB6F587C7342F9743790AE6FC2EAE /* Pod */,
 				C48BA8AC9FF08E77376AF03909A6901F /* Support Files */,
 			);
@@ -246,7 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075B3BC02403D0DA00DE2576 /* GroupTest.h in Headers */,
+				0739B33A2404AFA80009236A /* GroupTest.h in Headers */,
 				005B667B5BA570C097FD25CC29D72868 /* LCXPodB-umbrella.h in Headers */,
 				B17C8A828D976024AFC9A3BF2767332F /* PodBTestClass.h in Headers */,
 			);
@@ -400,7 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075B3BC12403D0DA00DE2576 /* GroupTest.m in Sources */,
+				0739B3392404AFA80009236A /* GroupTest.m in Sources */,
 				51CD9B59071EB0EF75D875F04DD8C7DB /* LCXPodB-dummy.m in Sources */,
 				C3CDB4A0E109A48A793219DE294F4475 /* PodBTestClass.m in Sources */,
 			);
