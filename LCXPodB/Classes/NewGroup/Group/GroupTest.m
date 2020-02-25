@@ -10,7 +10,7 @@
 @implementation GroupTest
 
 + (void)test{
-    NSLog(@"group0.1.3 hello,%@",self);
+    NSLog(@"group0.1.4 hello,%@",self);
 }
 
 @end
