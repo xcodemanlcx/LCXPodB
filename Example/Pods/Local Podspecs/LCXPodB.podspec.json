@@ -1,9 +1,9 @@
 {
   "name": "LCXPodB",
-  "version": "0.1.0",
-  "summary": "A short description of LCXPodB.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/475512103@qq.com/LCXPodB",
+  "version": "0.1.5",
+  "summary": "short description.",
+  "description": "TODO: long description here.",
+  "homepage": "https://github.com/xcodemanlcx/LCXPodB",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "475512103@qq.com": "leichunxiang58@163.com"
   },
   "source": {
-    "git": "https://github.com/475512103@qq.com/LCXPodB.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/xcodemanlcx/LCXPodB.git",
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"

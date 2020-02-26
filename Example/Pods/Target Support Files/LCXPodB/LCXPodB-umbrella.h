@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "LCXPodB.h"
+#import "GroupTest.h"
 #import "PodBTestClass.h"
 
 FOUNDATION_EXPORT double LCXPodBVersionNumber;
