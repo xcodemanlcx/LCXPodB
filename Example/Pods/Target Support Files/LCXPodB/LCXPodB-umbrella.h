@@ -12,7 +12,6 @@
 
 #import "LCXPodB.h"
 #import "GroupTest.h"
-#import "PodBTestClass.h"
 
 FOUNDATION_EXPORT double LCXPodBVersionNumber;
 FOUNDATION_EXPORT const unsigned char LCXPodBVersionString[];

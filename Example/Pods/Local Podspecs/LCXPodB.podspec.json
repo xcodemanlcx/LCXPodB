@@ -1,6 +1,6 @@
 {
   "name": "LCXPodB",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "summary": "short description.",
   "description": "TODO: long description here.",
   "homepage": "https://github.com/xcodemanlcx/LCXPodB",
@@ -13,10 +13,20 @@
   },
   "source": {
     "git": "https://github.com/xcodemanlcx/LCXPodB.git",
-    "tag": "0.1.9"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LCXPodB/Classes/**/*"
+  "source_files": "LCXPodB/Classes/LCXPodB.h",
+  "subspecs": [
+    {
+      "name": "PodGroup1",
+      "source_files": "LCXPodB/PodGroup1/**/*"
+    },
+    {
+      "name": "PodGroup2",
+      "source_files": "LCXPodB/PodGroup2/**/*"
+    }
+  ]
 }

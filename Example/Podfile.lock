@@ -1,5 +1,9 @@
 PODS:
-  - LCXPodB (0.1.9)
+  - LCXPodB (0.2.0):
+    - LCXPodB/PodGroup1 (= 0.2.0)
+    - LCXPodB/PodGroup2 (= 0.2.0)
+  - LCXPodB/PodGroup1 (0.2.0)
+  - LCXPodB/PodGroup2 (0.2.0)
 
 DEPENDENCIES:
   - LCXPodB (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LCXPodB: 3107f88c2ac96e9cc4f8a234a91a37608e4fc47b
+  LCXPodB: 7fa9856b739963e4d81d2759cfaaa830adda3f33
 
 PODFILE CHECKSUM: 7bdf15d5bd8273624ac814482f41d2f0d067d20f
 
