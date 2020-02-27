@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCXPodB'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'short description.'
   s.description      = <<-DESC
 TODO: long description here.
@@ -41,9 +41,9 @@ TODO: long description here.
   
   # source_files：表示引用相对路径，或者绝对文件路径
   s.subspec 'PodGroup1' do |ss|
-    ss.source_files = 'LCXPodB/PodGroup1/**/*'
+    ss.source_files = 'LCXPodB/Classes/PodGroup1/**/*'
   end
   s.subspec 'PodGroup2' do |ss|
-    ss.source_files = 'LCXPodB/PodGroup2/**/*'
+    ss.source_files = 'LCXPodB/Classes/PodGroup2/**/*'
   end
 end
